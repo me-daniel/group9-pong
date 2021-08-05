@@ -35,7 +35,7 @@ class CPU:
         """Initialize class variables."""
         # Load the player image for the CPU and position its rectangle.
         self.player_image = pygame.image.load(os.path.join(
-            'graphics', 'pong_player_1.png')).convert_alpha()
+            'graphics', 'pong_player_2.png')).convert_alpha()
         self.player_rect = self.player_image.get_rect(topright=(1180, 200))
         self.score = 0
         self.ball = ball
